@@ -70,7 +70,7 @@ margin-right: 2.5%;
 #food-grid>div>div {
     display: flex;
     max-width: fit-content;
-}
+}z
 
 .food-price {
     text-align: right;
@@ -78,11 +78,40 @@ margin-right: 2.5%;
     color: black;
 }
 
+.food-price-1 {
+    text-align: right;
+    margin-left: 150px;
+    color: black;
+}
+
+.food-price-2 {
+    text-align: right;
+    margin-left: 100px;
+    color: black;
+}
+
+.food-price-3 {
+    text-align: right;
+    margin-left: 85px;
+    color: black;
+}
+
+.food-price-4 {
+    text-align: right;
+    margin-left: 95px;
+    color: black;
+}
+
+.food-price-5 {
+    text-align: right;
+    margin-left: 215px;
+    color: black;
+}
+
 .food-image {
     padding-top: 35px;
     padding-bottom: 35px;
-    padding-left: 25px;
-    padding-right: 25px;
+    margin: auto;
 }
 
 .food-image>img {
