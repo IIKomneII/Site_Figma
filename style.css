@@ -1,0 +1,133 @@
+*{ 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+#first-page-banner {
+    background: url(culinary-class-kitchen-making-salads-260nw-581297698_waifu2x_photo_noise3_scale\ 1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 512px;
+    padding-top: 10vh;
+}
+
+#first-page-banner>div>h2 {
+    text-align: center;
+    font-size: 5rem;
+    color: #A51931;
+    text-transform: capitalize;
+    padding-bottom: 30vh;
+}
+
+#first-page-banner>div>h2>span {
+    color: #2F1FA9;
+}
+
+#first-page-banner>div>ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 18%;
+}
+
+#page-links {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#first-page-body {
+margin-top: 5%;
+margin-bottom: 5%;
+margin-left: 2.5%;
+margin-right: 2.5%;
+}
+
+#food-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    grid-template-rows: repeat(3, 50vh);
+    justify-content: center;
+    gap: 50px;
+    column-gap: 200px;
+}
+
+#food-grid>div {
+    border: solid;
+    border-color: #A51931;
+    border-radius: 20px;
+    color: #A51931;
+    font-size: 1.5rem;
+}
+
+#food-grid>div>div {
+    display: flex;
+    max-width: fit-content;
+}
+
+.food-price {
+    text-align: right;
+    margin-left: 85px;
+    color: black;
+}
+
+.food-image {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.food-image>img {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.food-text {
+    font-size: 1rem;
+    color: black;
+}
+
+#food-grid>div>div>span {
+    color: #2F1FA9;
+}
+
+#first-page-footer {
+    background: url(Rectangle-5.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 40vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    position: relative;
+    margin: auto;
+    bottom: 0px;
+}
+
+#first-page-footer>div {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    gap: 50px;
+    height: 26vh;
+}
+
+#first-page-footer>div>div {
+    color: white;
+    font-size: 1.5rem;
+}
+
+#first-page-footer>div>div>svg {
+    fill: white;
+    width: 16px;
+}
