@@ -8,7 +8,7 @@ body {
     font-family: "Anek Devanagari", sans-serif;
 }
 
-#first-page-banner {
+#third-page-banner {
     background: url(culinary-class-kitchen-making-salads-260nw-581297698_waifu2x_photo_noise3_scale\ 1.png);
     background-position: center;
     background-size: cover;
@@ -17,7 +17,7 @@ body {
     padding-top: 10vh;
 }
 
-#first-page-banner>div>h2 {
+#third-page-banner>div>h2 {
     text-align: center;
     font-size: 5rem;
     color: #A51931;
@@ -25,11 +25,11 @@ body {
     padding-bottom: 30vh;
 }
 
-#first-page-banner>div>h2>span {
+#third-page-banner>div>h2>span {
     color: #2F1FA9;
 }
 
-#first-page-banner>div>ul {
+#third-page-banner>div>ul {
     list-style: none;
     padding: 0;
     display: flex;
@@ -49,92 +49,58 @@ body {
     transition: 0.7s;
 }
 
-#first-page-body {
-margin-top: 5%;
-margin-bottom: 5%;
-margin-left: 2.5%;
-margin-right: 2.5%;
-}
-
-#food-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 400px);
-    grid-template-rows: repeat(3, fit-content);
-    justify-content: center;
-    gap: 50px;
-    column-gap: 200px;
-}
-
-#food-grid>div {
-    border: solid;
-    border-color: #A51931;
-    border-radius: 20px;
-    color: #A51931;
+#third-page-body {
     font-size: 1.5rem;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
-#food-grid>div>div {
+#third-page-body>section {
+    display: grid;
+    grid-template-columns: repeat(2, 700px);
+    grid-template-rows: repeat(1, 100%);
+    justify-content: center;
+}
+
+#third-page-body>section>div {
     display: flex;
-    max-width: fit-content;
-}
-
-.food-price {
-    text-align: right;
-    margin-left: 85px;
-    color: black;
-}
-
-.food-price-1 {
-    text-align: right;
-    margin-left: 150px;
-    color: black;
-}
-
-.food-price-2 {
-    text-align: right;
-    margin-left: 100px;
-    color: black;
-}
-
-.food-price-3 {
-    text-align: right;
-    margin-left: 85px;
-    color: black;
-}
-
-.food-price-4 {
-    text-align: right;
-    margin-left: 95px;
-    color: black;
-}
-
-.food-price-5 {
-    text-align: right;
-    margin-left: 215px;
-    color: black;
-}
-
-.food-image {
-    padding-top: 35px;
-    padding-bottom: 35px;
-    margin: auto;
-}
-
-.food-image>img {
+    flex-flow: column;
+    align-items: center;
+    border: solid;
+    border-color: #A51931;;
     border-radius: 20px;
-    overflow: hidden;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
-.food-text {
-    font-size: 1rem;
-    color: black;
+#body-title {
+    font-size: 2.5rem
 }
 
-#food-grid>div>div>span {
-    color: #2F1FA9;
+#third-page-body>section>div>ul {
+    list-style: none;
+    padding: 0;
 }
 
-#first-page-footer {
+#third-page-body>section>div>ul>li {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#third-page-body>section>div>ul>li>input {
+    width: 460px;
+    height: 65px;
+    border-radius: 20px;
+    border: 2px solid 
+}
+
+.small-text {
+    font-size: 1.15;
+    font-weight: bold;
+}
+
+#third-page-footer {
     background: url(Rectangle-5.png);
     background-position: center;
     background-size: cover;
@@ -149,7 +115,7 @@ margin-right: 2.5%;
     bottom: 0px;
 }
 
-#first-page-footer>div {
+#third-page-footer>div {
     display: flex;
     flex-flow: column;
     flex-wrap: wrap;
@@ -157,12 +123,12 @@ margin-right: 2.5%;
     height: 35vh;
 }
 
-#first-page-footer>div>div {
+#third-page-footer>div>div {
     color: white;
     font-size: 1.5rem;
 }
 
-#first-page-footer>div>div>svg {
+#third-page-footer>div>div>svg {
     fill: white;
     width: 16px;
 }
