@@ -1,0 +1,122 @@
+*{ 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Anek Devanagari", sans-serif;
+}
+
+#fifth-page-banner {
+    background: url(culinary-class-kitchen-making-salads-260nw-581297698_waifu2x_photo_noise3_scale\ 1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 512px;
+    padding-top: 10vh;
+}
+
+#fifth-page-banner>div>h2 {
+    text-align: center;
+    font-size: 5rem;
+    color: #A51931;
+    text-transform: capitalize;
+    padding-bottom: 30vh;
+}
+
+#fifth-page-banner>div>h2>span {
+    color: #2F1FA9;
+}
+
+#fifth-page-banner>div>ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 18%;
+}
+
+#page-links {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#page-links:hover {
+    color: rgb(185, 185, 185);
+    transition: 0.7s;
+}
+
+#fifth-page-body {
+    font-size: 1.5rem;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#fifth-page-body>section {
+    display: grid;
+    grid-template-columns: repeat(2, 700px);
+    grid-template-rows: repeat(1 , fit-content);
+    justify-content: center;
+}
+
+#fifth-page-body>section>div {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border: solid;
+    border-color: #A51931;;
+    border-radius: 20px;
+    margin: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#fifth-page-body>section>div>div {
+    color: #A51931;
+    font-size: 2.5rem;
+}
+
+#fifth-page-body>section>div>div>span {
+    color: #2F1FA9;
+}
+
+
+#fifth-page-body>section>img {
+    border-radius: 20px;
+}
+
+#fifth-page-footer {
+    background: url(Rectangle-5.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 40vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    position: relative;
+    margin: auto;
+    bottom: 0px;
+}
+
+#fifth-page-footer>div {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    gap: 50px;
+    height: 35vh;
+}
+
+#fifth-page-footer>div>div {
+    color: white;
+    font-size: 1.5rem;
+}
+
+#fifth-page-footer>div>div>svg {
+    fill: white;
+    width: 16px;
+}
