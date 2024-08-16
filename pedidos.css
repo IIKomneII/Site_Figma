@@ -1,0 +1,144 @@
+*{ 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Anek Devanagari", sans-serif;
+}
+
+#food-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    grid-template-rows: repeat(1, fit-content);
+    justify-content: center;
+    gap: 50px;
+    column-gap: 200px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#food-grid>div {
+    border: solid;
+    border-color: #A51931;
+    border-radius: 20px;
+    color: #A51931;
+    font-size: 1.5rem;
+}
+
+#food-grid>div>div {
+    display: flex;
+    max-width: fit-content;
+}
+
+.food-price {
+    text-align: right;
+    margin-left: 85px;
+    color: black;
+}
+
+.food-image {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin: auto;
+}
+
+.food-image>img {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.food-text {
+    font-size: 1rem;
+    color: black;
+}
+
+#food-grid>div>div>span {
+    color: #2F1FA9;
+}
+
+#food-grid>section {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: auto;
+    color: black;
+    font-size: 1.5rem;
+}
+
+#food-grid>section>ul {
+    list-style: none;
+    padding: 0;
+}
+
+#food-grid>section>ul>li {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#food-grid>section>ul>li>span {
+    margin-left: 40%;
+}
+
+#food-grid>section>ul>li>input {
+    width: 350px;
+    height: 45px;
+    border-radius: 20px;
+    border: 2px solid 
+}
+
+.purchase-button {
+    border-radius: 20px;
+    border: 2px black solid;
+    padding-left: 15%;
+    padding-right: 10%;
+}
+
+.purchase-button>a {
+    text-decoration: none;
+    color: #A51931;
+}
+
+.purchase-button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: 0.7s;
+}
+
+.purchase-button>a>span {
+    color: #2F1FA9;
+}
+
+#forth-page-footer {
+    background: url(Rectangle-5.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 40vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    position: relative;
+    margin: auto;
+    bottom: 0px;
+}
+
+#forth-page-footer>div {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    gap: 50px;
+    height: 35vh;
+}
+
+#forth-page-footer>div>div {
+    color: white;
+    font-size: 1.5rem;
+}
+
+#forth-page-footer>div>div>svg {
+    fill: white;
+    width: 16px;
+}
