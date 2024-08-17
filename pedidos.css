@@ -8,6 +8,65 @@ body {
     font-family: "Anek Devanagari", sans-serif;
 }
 
+#forth-page-banner {
+    background: url(culinary-class-kitchen-making-salads-260nw-581297698_waifu2x_photo_noise3_scale\ 1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding-top: 10vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+}
+
+#forth-page-banner>div>h2 {
+    text-align: center;
+    height: 160px;
+    font-size: 5rem;
+    color: white;
+    text-transform: capitalize;
+    background-image: url(Rectangle-Full.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#forth-page-banner>div>div>input {
+    border-radius: 20px;
+    width: 100%;
+    height: 5vh;
+    margin-bottom: 25px;
+    border: solid;
+}
+
+#forth-page-banner>div>div>a {
+    position: absolute;
+}
+
+#forth-page-banner>div>div>a>svg {
+    width: 20px;
+}
+
+#forth-page-banner>div>ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 18%;
+    margin-top: 15vh;
+}
+
+#page-links {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#page-links:hover {
+    color: rgb(185, 185, 185);
+    transition: 0.7s;
+}
+
 #food-grid {
     display: grid;
     grid-template-columns: repeat(2, 400px);
